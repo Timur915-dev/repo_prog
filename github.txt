@@ -1,2 +1,9 @@
 git init  
  
+git add .
+
+git commit -m "first"
+
+git remote add origin https://github.com/USER_NAME/NAME_REPOSITORY.git
+
+git push -u origin main
