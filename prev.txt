@@ -1,0 +1,105 @@
+user_reviews_section
+section_head
+user_reviews
+user_reviews__review
+user_reviews__review-text
+user_reviews__review-author
+user_reviews__review-photo
+
+add_user_review
+add_user_review__container
+add_user_review-name
+add_user_review-text
+add_user_review__button
+
+
+
+
+
+
+
+
+
+
+
+
+// document.querySelector(".add_user_review__button").onclick = function (e) {
+//     e.preventDefault() = false;
+// }
+
+// class UserReview {
+//     constructor(a, b) {
+//         this.name = a;
+//         this.text = b;
+//     }
+//     addNewReview() {
+//         let reviewsBlock = document.querySelector(".user_reviews");
+//         reviewsBlock.appendChild(`
+//             <div class="user_reviews__review">
+//                         <img src="./images/team_images/peterson.jpg" alt="" class="user_reviews__review-photo">
+//                         <p class="user_reviews__review-text">${this.text}</p>
+//                         <h3 class="user_reviews__review-author">${this.name}</h3>
+//             </div>
+//         `)
+//     }
+// }
+
+// let button = document.querySelector(".add_user_review__button");
+// button.onclick = function () {
+//     let userReviewName = document.querySelector(".add_user_review-name").value;
+//     let userReviewText = document.querySelector(".add_user_review-text").value;
+//     // console.log(userReviewName, userReviewText);
+//     let element = new UserReview(userReviewName, userReviewText);
+//     element.addNewReview();
+// }
+
+
+
+//
+
+// class UserReview {
+//     constructor(a, b) {
+//         this.name = a;
+//         this.text = b;
+//     }
+//     addNewReview() {
+//         let reviewsBlock = document.querySelector(".user_reviews");
+
+//         // 1. Створюємо контейнерний div для відгуку
+//         const reviewDiv = document.createElement('div');
+//         reviewDiv.classList.add('user_reviews__review');
+
+//         // 2. Створюємо елемент img для фото
+//         const photoImg = document.createElement('img');
+//         photoImg.src = "./images/team_images/peterson.jpg";
+//         photoImg.alt = "";
+//         photoImg.classList.add('user_reviews__review-photo');
+
+//         // 3. Створюємо елемент p для тексту відгуку
+//         const reviewText = document.createElement('p');
+//         reviewText.classList.add('user_reviews__review-text');
+//         reviewText.textContent = this.text; // Встановлюємо текст
+
+//         // 4. Створюємо елемент h3 для автора відгуку
+//         const reviewAuthor = document.createElement('h3');
+//         reviewAuthor.classList.add('user_reviews__review-author');
+//         reviewAuthor.textContent = this.name; // Встановлюємо ім'я автора
+
+//         // 5. Додаємо створені елементи до контейнерного div
+//         reviewDiv.appendChild(photoImg);
+//         reviewDiv.appendChild(reviewText);
+//         reviewDiv.appendChild(reviewAuthor);
+
+//         // 6. Додаємо контейнерний div до блоку відгуків на сторінці
+//         reviewsBlock.appendChild(reviewDiv);
+//     }
+// }
+
+// let button = document.querySelector(".add_user_review__button");
+// button.onclick = function () {
+//     let userReviewName = document.querySelector(".add_user_review-name").value;
+//     let userReviewText = document.querySelector(".add_user_review-text").value;
+//     // console.log(userReviewName, userReviewText);
+//     let element = new UserReview(userReviewName, userReviewText);
+//     element.addNewReview();
+// };
